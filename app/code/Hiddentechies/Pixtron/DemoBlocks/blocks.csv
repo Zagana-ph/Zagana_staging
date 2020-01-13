@@ -1,0 +1,357 @@
+title,identifier,content,is_active,stores
+Pixtron Home Blogs,Pixtron-home-blogs,"<div class=""hb-wrapper above-padding below-padding"">
+    <div class=""page-main"">
+        <div class=""page-title-main""><strong>Latest Posts</strong></div>
+        <div class=""hb-row"">
+            <div class=""hb-blog"">
+                <ul id=""hb-blogs"">
+                    <li style=""display: none;"">
+                        <div class=""hb-inner"">
+                            <div class=""hb-img"">
+                                <img src=""{{media url=""wysiwyg/blog/blog.png""}}"" alt=""blog-image"" />
+                                     <span> 25 Jul 2016 </span>
+                            </div>
+                            <div class=""hb-content"">
+                                <h3>Lorem ipsum is dolor sit amet.</h3>
+                                <p>Lorem ipsum is dolor sit amet. Lorem ipsum is dolor sit amet. Lorem ipsum is dolor sit amet. Lorem ipsum is dolor sit amet.</p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li style=""display: none;"">
+                        <div class=""hb-inner"">
+                            <div class=""hb-img"">
+                                <img src=""{{media url=""wysiwyg/blog/blog.png""}}"" alt=""blog-image"" />
+                                     <span> 25 Jul 2016 </span>
+                            </div>
+                            <div class=""hb-content"">
+                                <h3>Lorem ipsum is dolor sit amet.</h3>
+                                <p>Lorem ipsum is dolor sit amet. Lorem ipsum is dolor sit amet. Lorem ipsum is dolor sit amet. Lorem ipsum is dolor sit amet.</p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li style=""display: none;"">
+                        <div class=""hb-inner"">
+                            <div class=""hb-img"">
+                                <img src=""{{media url=""wysiwyg/blog/blog.png""}}"" alt=""blog-image"" />
+                                     <span> 25 Jul 2016 </span>
+                            </div>
+                            <div class=""hb-content"">
+                                <h3>Lorem ipsum is dolor sit amet.</h3>
+                                <p>Lorem ipsum is dolor sit amet. Lorem ipsum is dolor sit amet. Lorem ipsum is dolor sit amet. Lorem ipsum is dolor sit amet.</p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li style=""display: none;"">
+                        <div class=""hb-inner"">
+                            <div class=""hb-img"">
+                                <img src=""{{media url=""wysiwyg/blog/blog.png""}}"" alt=""blog-image"" />
+                                     <span> 25 Jul 2016 </span>
+                            </div>
+                            <div class=""hb-content"">
+                                <h3>Lorem ipsum is dolor sit amet.</h3>
+                                <p>Lorem ipsum is dolor sit amet. Lorem ipsum is dolor sit amet. Lorem ipsum is dolor sit amet. Lorem ipsum is dolor sit amet.</p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li style=""display: none;"">
+                        <div class=""hb-inner"">
+                            <div class=""hb-img"">
+                                <img src=""{{media url=""wysiwyg/blog/blog.png""}}"" alt=""blog-image"" />
+                                     <span> 25 Jul 2016 </span>
+                            </div>
+                            <div class=""hb-content"">
+                                <h3>Lorem ipsum is dolor sit amet.</h3>
+                                <p>Lorem ipsum is dolor sit amet. Lorem ipsum is dolor sit amet. Lorem ipsum is dolor sit amet. Lorem ipsum is dolor sit amet.</p>
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <script type=""text/javascript"" xml=""space"">
+                    require(['jquery', 'pixtronowlcarousel'], function() {
+                        jQuery(document).ready(function() {
+                            jQuery(""#hb-blogs"").owlCarousel({
+                                items: 3,
+                                itemsDesktop: [1198, 3],
+                                itemsDesktopSmall: [1023, 3],
+                                itemsTablet: [768, 3],
+                                itemsTabletSmall: [767, 2],
+                                itemsMobile: [479, 1],
+                                pagination: false,
+                                navigationText: [""<div class='left-arrow'><i class='fa fa-angle-left'></i></div>"", ""<div class='right-arrow'><i class='fa fa-angle-right'></div>""],
+                                navigation: true,
+                            });
+                            jQuery(""#hb-blogs li"").show();
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</div>",1,0
+Pixtron Home Testimonials,pixtron-home-testimonials,"<div class=""hb-wrapper testmonial-back above-padding below-padding above-margin below-margin"">
+    <div class=""page-main"">
+        <div class=""page-title-main""><strong>Testimonials</strong></div>
+        <div class=""hb-row"">
+            <div class=""hb-testimonoals"">
+                <ul id=""hb-testimonials"">
+                    <li style=""display: none;"">
+                        <div class=""hb-inner"">
+                            <div class=""hb-content"">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            </div>
+                            <div class=""hb-image"">
+                                <img src=""{{media url=""wysiwyg/testimonial/testimonial.png""}}"" alt=""testimonial-image"" />
+                                     <span>
+                                    <h4>Joh Doe</h4>
+                                    <p>Web Designer</p>
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li style=""display: none;"">
+                        <div class=""hb-inner"">
+                            <div class=""hb-content"">
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit architecto beatae.</p>
+                            </div>
+                            <div class=""hb-image"">
+                                <img src=""{{media url=""wysiwyg/testimonial/testimonial.png""}}"" alt=""testimonial-image"" />
+                                     <span>
+                                    <h4>Joh Doe</h4>
+                                    <p>Web Designer</p>
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                    <li style=""display: none;"">
+                        <div class=""hb-inner"">
+                            <div class=""hb-content"">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            </div>
+                            <div class=""hb-image"">
+                                <img src=""{{media url=""wysiwyg/testimonial/testimonial.png""}}"" alt=""testimonial-image"" />
+                                     <span>
+                                    <h4>Joh Doe</h4>
+                                    <p>Web Designer</p>
+                                </span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <script type=""text/javascript"" xml=""space"">
+                    require(['jquery', 'pixtronowlcarousel'], function() {
+                        jQuery(document).ready(function() {
+                            jQuery(""#hb-testimonials"").owlCarousel({
+                                items: 1,
+                                itemsDesktop: [1198, 1],
+                                itemsDesktopSmall: [1023, 1],
+                                itemsTablet: [768, 1],
+                                itemsTabletSmall: [767, 1],
+                                itemsMobile: [479, 1],
+                                pagination: false,
+                                navigationText: [""<div class='left-arrow'><i class='fa fa-angle-left'></i></div>"", ""<div class='right-arrow'><i class='fa fa-angle-right'></div>""],
+                                navigation: true,
+                            });
+                            jQuery(""#hb-testimonials li"").show();
+                        });
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</div>",1,0
+Pixtron Home Brands,pixtron-home-brands,"<div class=""brands-wrapper above-padding below-padding"">
+<div class=""page-main"">
+<div class=""brands-main"">
+<ul class=""brands-slider"">
+<li style=""display: none;""><a href=""#""> <img src=""{{media url=""wysiwyg/brand/brand.png""}}"" alt=""brand-image"" /> </a></li>
+<li style=""display: none;""><a href=""#""> <img src=""{{media url=""wysiwyg/brand/brand.png""}}"" alt=""brand-image"" /> </a></li>
+<li style=""display: none;""><a href=""#""> <img src=""{{media url=""wysiwyg/brand/brand.png""}}"" alt=""brand-image"" /> </a></li>
+<li style=""display: none;""><a href=""#""> <img src=""{{media url=""wysiwyg/brand/brand.png""}}"" alt=""brand-image"" /> </a></li>
+<li style=""display: none;""><a href=""#""> <img src=""{{media url=""wysiwyg/brand/brand.png""}}"" alt=""brand-image"" /> </a></li>
+<li style=""display: none;""><a href=""#""> <img src=""{{media url=""wysiwyg/brand/brand.png""}}"" alt=""brand-image"" /> </a></li>
+<li style=""display: none;""><a href=""#""> <img src=""{{media url=""wysiwyg/brand/brand.png""}}"" alt=""brand-image"" /> </a></li>
+<li style=""display: none;""><a href=""#""> <img src=""{{media url=""wysiwyg/brand/brand.png""}}"" alt=""brand-image"" /> </a></li>
+</ul>
+<script type=""text/javascript"" xml=""space"">
+                require(['jquery', 'pixtronowlcarousel'], function() {
+                    jQuery(document).ready(function() {
+                        jQuery("".brands-slider"").owlCarousel({
+                            items: 6,
+                            itemsDesktop: [1198, 5],
+                            itemsDesktopSmall: [1023, 5],
+                            itemsTablet: [768, 4],
+                            itemsTabletSmall: [767, 4],
+                            itemsMobile: [479, 2],
+                            pagination: false,
+                            navigationText: [""<div class='left-arrow'><i class='fa fa-angle-left'></i></div>"", ""<div class='right-arrow'><i class='fa fa-angle-right'></div>""],
+                            navigation: false,
+                        });
+                        jQuery("".brands-slider li"").show();
+                    });
+                });
+            </script>
+</div>
+</div>
+</div>",1,0
+Pixtron Home Images Block,pixtron-home-images-one,"<div class=""home-images-wrapper above-padding below-padding"">
+<div class=""page-main"">
+<div class=""home-image-main"">
+<div class=""home-image-inner""><a href=""#""> <img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/advertisement/adv-image.png""}}"" alt=""home-image"" /> </a></div>
+<div class=""home-image-inner""><a href=""#""> <img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/advertisement/adv-image.png""}}"" alt=""home-image"" /> </a></div>
+<div class=""home-image-inner""><a href=""#""> <img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/advertisement/adv-image.png""}}"" alt=""home-image"" /> </a></div>
+</div>
+</div>
+</div>",1,0
+Pixtron Home Images Block,pixtron-home-images-two,"<div class=""home-parallax-block above-margin below-margin"">
+<h1>Pixtron Free Responsive Magento 2 Theme</h1>
+<a class=""action primary"" href=""http://www.hiddentechies.com/pixtron-responsive-theme-magento-2.html"" target=""_blank"">Download Now</a></div>",1,0
+Pixtron Home Images Block,pixtron-home-images-three,"<div class=""home-images-wrapper-two above-padding below-padding"">
+<div class=""page-main"">
+<div class=""home-image-main"">
+<div class=""home-image-inner""><a href=""#""> <img class=""image-responsive middle-block"" src=""{{media url='wysiwyg/advertisement/adv-image-2.png'}}"" alt=""home-image"" /> </a></div>
+<div class=""home-image-inner""><a href=""#""> <img class=""image-responsive middle-block"" src=""{{media url='wysiwyg/advertisement/adv-image-2.png'}}"" alt=""home-image"" /> </a></div>
+</div>
+</div>
+</div>",1,0
+Pixtron Home Services Block,pixtron-home-services,"<div class=""home-advantage-block"">
+    <div class=""page-main"">
+        <div class=""hab-row"">
+            <div class=""hab-inner"">
+                <div class=""home-advantage-block-inner"">
+                    <span>
+                        <em class=""fa fa-usd""></em>
+                    </span>
+                    <p>30-Day Money Back</p>
+                </div>
+            </div>
+            <div class=""hab-inner"">
+                <div class=""home-advantage-block-inner"">
+                    <span>
+                        <em class=""fa fa-headphones""></em>
+                    </span>
+                    <p>1 year Free Support</p>
+                </div>
+            </div>
+            <div class=""hab-inner"">
+                <div class=""home-advantage-block-inner"">
+                    <span>
+                        <em class=""fa fa-undo""></em>
+                    </span>
+                    <p>Free Lifetime Update</p>
+                </div>
+            </div>
+            <div class=""hab-inner"">
+                <div class=""home-advantage-block-inner"">
+                    <span>
+                        <em class=""fa fa-thumbs-up""></em>
+                    </span>
+                    <p>100% Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>",1,0
+Pixtron Home Slider,pixtron-home-slider,"<div class=""home-slider-wrapper"">
+<div class=""home-slider-main"">
+<ul class=""home-slider"">
+<li><a href=""#""> <img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/slider/home-banner.png""}}"" alt=""home banner"" /> </a></li>
+<li style=""display: none;""><a href=""#""> <img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/slider/home-banner.png""}}"" alt=""home banner"" /> </a></li>
+</ul>
+</div>
+<script type=""text/javascript"" xml=""space"">
+        require(['jquery', 'pixtronowlcarousel'], function() {
+            jQuery(document).ready(function() {
+                jQuery("".home-slider"").owlCarousel({
+                    items: 1,
+                    itemsDesktop: [1198, 1],
+                    itemsDesktopSmall: [1023, 1],
+                    itemsTablet: [768, 1],
+                    itemsTabletSmall: [767, 1],
+                    itemsMobile: [479, 1],
+                    pagination: true,
+                    navigationText: [""<div class='left-arrow'><i class='fa fa-angle-left'></i></div>"", ""<div class='right-arrow'><i class='fa fa-angle-right'></div>""],
+                    navigation: true,
+                });
+                jQuery("".home-slider li"").show();
+            });
+        });
+    
+</script>
+</div>",1,0
+Pixtron Payments Icons,pixtron-payment-icons,"<span class=""payment-icons"">
+    <ul>
+        <li><a href=""#""><img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/paymet/americanexpress.png""}}"" alt=""americanexpress"" /></a></li>
+        <li><a href=""#""><img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/paymet/discover.png""}}"" alt=""discover"" /></a></li>
+        <li><a href=""#""><img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/paymet/maestro.png""}}"" alt=""maestro"" /></a></li>
+        <li><a href=""#""><img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/paymet/master.png""}}"" alt=""master"" /></a></li>
+        <li><a href=""#""><img class=""image-responsive middle-block"" src=""{{media url=""wysiwyg/paymet/visa.png""}}"" alt=""visa"" /></a></li>
+    </ul>
+</span>",1,0
+Pixtron Footer Payment & Shipping,pixtron-footer-payment-shipping,"<div class=""footer-colum-title"">
+    <h3>
+        Payment & Shipping
+    </h3>
+</div>
+<div class=""footer-column-content"">
+    <ul class=""footer links"">
+        <li class=""nav item""><a href=""#"">Terms of Use</a></li>
+        <li class=""nav item""><a href=""#"">Payment Methods</a></li>
+        <li class=""nav item""><a href=""#"">Shipping Guide</a></li>
+        <li class=""nav item""><a href=""#"">Order Tracking</a></li>
+        <li class=""nav item""><a href=""#"">Return % Exchange</a></li>
+    </ul>
+</div>",1,0
+Pixtron Footer My Account Block,pixtron-footer-myaccount,"<div class=""footer-colum-title"">
+    <h3>
+        My Account
+    </h3>
+</div>
+<div class=""footer-column-content"">
+    <ul class=""footer links"">
+        <li class=""nav item""><a href=""#"">My Account</a></li>
+        <li class=""nav item""><a href=""#"">Login</a></li>
+        <li class=""nav item""><a href=""#"">My Cart</a></li>
+        <li class=""nav item""><a href=""#"">My Compare</a></li>
+        <li class=""nav item""><a href=""#"">My Wishlist</a></li>
+    </ul>
+</div>",1,0
+Pixtron Footer Socials Block,pixtron-footer-socials,"<div class=""socials-block"">
+            <a href=""#""><em class=""fa fa-facebook""></em></a>
+            <a href=""#""><em class=""fa fa-twitter""></em></a>
+            <a href=""#""><em class=""fa fa-linkedin""></em></a>
+            <a href=""#""><em class=""fa fa-vimeo""></em></a>
+            <a href=""#""><em class=""fa fa-google""></em></a>
+        </div>",1,0
+Pixtron Above,pixtron-above,"<div class=""page-main"">
+{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""pixtron-home-slider""}}
+</div>",1,0
+Pixtron Below,pixtron-below,"{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""pixtron-home-images-three""}}
+<div class=""page-main"">
+{{widget type=""Magento\Catalog\Block\Product\Widget\NewWidget"" display_type=""all_products"" show_pager=""0"" products_count=""10"" template=""product/widget/new/content/new_grid.phtml""}}
+</div>
+{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""pixtron-home-images-two""}}
+{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""pixtron-home-images-one""}}
+<div class=""page-main"">
+{{widget type=""Magento\CatalogWidget\Block\Product\ProductsList"" title=""Featured Products"" show_pager=""0"" products_count=""10"" template=""product/widget/content/grid.phtml"" conditions_encoded=""^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^],`1--1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Product`,`attribute`:`is_featured`,`operator`:`==`,`value`:`1`^]^]""}}
+</div>
+{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""pixtron-home-testimonials""}}
+{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""Pixtron-home-blogs""}}
+{{widget type=""Magento\Cms\Block\Widget\Block"" template=""widget/static_block/default.phtml"" block_id=""pixtron-home-brands""}}",1,0
+Pixtron  Footer Quicklinks Block,pixtron-footer-quicklinks,"<div class=""footer-colum-title"">
+    <h3>Quick Links</h3>
+</div>
+<div class=""footer-column-content"">
+    <ul class=""footer links"">
+        <li class=""nav item""><a href=""{{store url='privacy-policy-cookie-restriction-mode'}}""> Privacy and Cookie Policy </a></li>
+        <li class=""nav item""><a href=""{{store url='search/term/popular'}}""> Search Terms </a></li>
+        <li class=""nav item""><a href=""{{store url='contact'}}""> Contact Us </a></li>
+        <li class=""nav item""><a href=""{{store url='sales/guest/form'}}""> Orders and Returns </a></li>
+        <li class=""nav item""><a href=""{{store url='catalogsearch/advanced'}}"" data-action=""advanced-search""> Advanced Search </a></li>
+    </ul>
+</div>",1,0
+Sidebar add banner,sidebar-add-banner,"<img src=""{{media url=""wysiwyg/advertisement/sidebar-banner.png""}}"" alt="""" />",1,0

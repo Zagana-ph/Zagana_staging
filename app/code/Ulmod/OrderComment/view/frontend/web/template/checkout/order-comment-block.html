@@ -1,0 +1,31 @@
+<div class="payment-option _collapsible opc-payment-additional um-ordercomment comment last"
+     data-bind="mageInit: {'collapsible':{'openedState': '_active'}}">
+    <div class="payment-option-title field choice" data-role="title">
+        <span class="action action-toggle" role="heading" aria-level="2">
+            <!-- ko i18n: 'Leave A Comment'--><!-- /ko -->
+        </span>
+    </div>
+    <div class="payment-option-content" data-role="content">
+        <form class="form form-discount order-comment-form">
+            <div class="payment-option-inner">
+                <div class="field" data-bind="css: comment.css()">
+                    <label class="label">
+                        <span data-bind="i18n: 'Enter Comment'"></span>
+                    </label>
+                    <div class="control">
+						<textarea class="um-order-comment input-text order-comment order-comment-input" name="comment-code" rows="4" 
+							data-bind="value: comment,valueUpdate: 'afterkeydown',attr:{placeholder: $t('Enter your comment...')} " ></textarea>
+                        <p data-bind="if: hasMaxCommentLength()">
+							<span class="um-remaining-chars">
+								<span class="chars-value" data-bind="text: remainingCharacters"></span>
+								<span class="chars-label">
+								<!-- ko i18n: 'remaining characters'--><!-- /ko -->
+								</span> 
+							</span>							
+						</p>						
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

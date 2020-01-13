@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Ulmod. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="ulmod_extensions" translate="label" sortOrder="8888888">
+            <label>Ulmod Extensions</label>
+        </tab>  	
+        <section id="ulmod_ordercomment" translate="label" type="text" sortOrder="435" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Checkout Order Comment</label>
+            <tab>ulmod_extensions</tab>
+            <resource>Ulmod_OrderComment::config_ordercomment</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
+                <label>General</label>
+                <field id="is_show_in_myaccount" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Show "Order Comment" In Customer Account?</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                   <comment><![CDATA[If <strong>Yes</strong> the order comment will show on customer frontend account, 
+					in <strong>"My Account -> My Orders -> View Order"</strong>]]></comment>
+                </field>
+                <field id="max_length" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Maximum Characters Length (limit)</label>
+					<validate>validate-number</validate>
+                    <comment><![CDATA[Enter the maximum characters allowed for the order comment at the checkout page. 
+						Eg: <strong>200</strong>. Leave empty for no characters limit]]></comment>
+                </field>				
+            </group>
+        </section>
+    </system>
+</config>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 Customer Paradigm. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <!-- Intercept the payment process to save order comments -->
+    <type name="Magento\Quote\Model\QuoteManagement">
+        <plugin name="save-comments" type="CustomerParadigm\OrderComments\Model\Checkout\AllPaymentInformationManagementPlugin" sortOrder="10"/>
+    </type>
+
+    <!-- Custom logger -->
+    <type name="CustomerParadigm\OrderComments\Logger\Handler">
+        <arguments>
+            <argument name="filesystem" xsi:type="object">Magento\Framework\Filesystem\Driver\File</argument>
+        </arguments>
+    </type>
+    <type name="CustomerParadigm\OrderComments\Logger\Logger">
+        <arguments>
+            <argument name="name" xsi:type="string">orderCommentsLog</argument>
+            <argument name="handlers"  xsi:type="array">
+                <item name="system" xsi:type="object">CustomerParadigm\OrderComments\Logger\Handler</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

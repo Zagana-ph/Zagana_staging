@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Store/etc/config.xsd">
+    <default>
+        <pixtronsettings>
+            <htinformation>
+                <activationproductsku>M2HTPT</activationproductsku>
+            </htinformation>
+            <navigation_settings>
+                <enable>1</enable>
+            </navigation_settings>
+            <newsletter_settings>
+                <enable>1</enable>
+                <title>Sign Up For Newsletter</title>
+                <newsletter_static></newsletter_static>
+            </newsletter_settings>
+            <footer_columns>
+                <footer_top_static>pixtron-home-services</footer_top_static>
+                <enable_footer_columns>1</enable_footer_columns>
+                <footer_st_column_select>staticblock</footer_st_column_select>
+                <footer_st_column>pixtron-footer-quicklinks</footer_st_column>
+                <footer_nd_column>pixtron-footer-myaccount</footer_nd_column>
+                <footer_rd_column>pixtron-footer-payment-shipping</footer_rd_column>
+            </footer_columns>
+            <footer_contant>
+                <address>265, Surat, Gujarat, India</address>
+                <email>info@hiddentechies.com</email>
+                <phone>+1 123 456 7890</phone>
+            </footer_contant>
+            <footer_bottom>
+                <enable_footer_bottom>1</enable_footer_bottom>
+                <copyright_text>Copyright 2016 HiddenTechies. All rights reserved.</copyright_text>
+                <copyright_right_block>pixtron-payment-icons</copyright_right_block>
+            </footer_bottom>
+            <customcss>
+                <custom_css></custom_css>
+            </customcss>
+        </pixtronsettings>
+    </default>
+</config>

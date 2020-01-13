@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Ulmod. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <ulmod_ordercomment>
+            <general>
+                <is_show_in_myaccount>1</is_show_in_myaccount>
+                <max_length></max_length>				
+            </general>		
+        </ulmod_ordercomment>
+    </default>
+</config>

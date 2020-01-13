@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Hiddentechies_Pixtron::pixtron" title="Pixtron" module="Hiddentechies_Pixtron" sortOrder="65" resource="Hiddentechies_Pixtron::pixtron"/>
+        <add id="Hiddentechies_Pixtron::pixtronsettings" title="Configuration" module="Hiddentechies_Pixtron" sortOrder="20" parent="Hiddentechies_Pixtron::pixtron" action="adminhtml/system_config/edit/section/pixtronsettings" resource="Hiddentechies_Pixtron::pixtron"/>
+    </menu>
+</config>
